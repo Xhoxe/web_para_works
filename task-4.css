@@ -1,0 +1,102 @@
+/* Базові селектори */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: Arial, sans-serif;
+  max-width: 1510px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+
+.a-task4 {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Псевдо-класи */
+.a-task4:hover {
+  text-decoration: underline;
+}
+
+input:focus {
+  border: 2px solid #337ab7;
+  box-shadow: 0 0 5px #337ab7;
+}
+
+p:first-child {
+  font-weight: bold;
+}
+
+p:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd) {
+  background-color: #eee;
+}
+
+li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Поєднуємо різні селектори */
+ul > li:first-child {
+  color: #337ab7;
+}
+
+ul li:first-child + li {
+  font-size: 18px;
+}
+
+ul li:last-child:before {
+  content: "👉 ";
+  color: #337ab7;
+}
+button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+.a-task4-2 {
+  color: white;
+  text-decoration: none;
+}
+.a-task4-2:hover {
+  color: black;
+}

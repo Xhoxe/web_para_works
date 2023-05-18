@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-4</title>
+    <link rel="stylesheet" href="/task-4.css">
+</head>
+<body>
+    <h1>Використання всіх базових селекторів CSS та псевдо-класи</h1>
+
+    <p>
+      Сторінка, на якій використані всі базові селектори CSS та псевдо-класів.
+      Також тут використано поєднання різних селекторів, які дають можливість
+      більш точно задавати стилі для різних елементів.
+    </p>
+
+    <p>
+      Використав селектор <a class="a-task4"><code>a:hover</code></a> для того, щоб змінити
+      стиль посилання при наведенні курсору на нього.
+    </p>
+
+    <p>
+      Використав селектор <input><code>input:focus</code></input>, який дозволяє змінити стиль
+      поля вводу при отриманні на нього фокусу.
+    </p>
+
+    <ul>
+      <li>Перший елемент списку</li>
+      <li>Другий елемент списку</li>
+      <li>Третій елемент списку</li>
+      <li>Четвертий елемент списку</li>
+      <li>П'ятий елемент списку</li>
+      <li>Шостий елемент списку</li>
+    </ul>
+
+    <p>
+      У списку використано селектор <code>li:nth-child(odd)</code> та
+      <code>li:nth-child(even)</code>, які дозволяють змінювати стиль для парних
+      та непарних елементів списку відповідно.
+    </p>
+
+    <p>
+      А селектор <code>ul > li:first-child</code> дозволяє змінювати стиль
+      тільки першого елемента списку.
+    </p>
+
+    <p>
+      Використав поєднання різних селекторів для того, щоб задати стиль для
+      певних елементів списку. Наприклад, селектор
+      <code>ul li:first-child + li</code> задає стиль для другого елементу
+      списку.
+    </p>
+
+    <p>На цій сторінці також є лінійка:</p>
+
+    <div style="position: relative; border: 1px solid #ccc; padding: 5px">
+      <div
+        style="
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #337ab7;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 10%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #5cb85c;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 20%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #5bc0de;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 30%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #f0ad4e;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 40%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #d9534f;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 50%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #337ab7;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 60%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #5cb85c;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 70%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #d9534f;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 80%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #f0ad4e;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          left: 90%;
+          top: 0;
+          height: 100%;
+          width: 10%;
+          background-color: #5bc0de;
+        "
+      ></div>
+
+      <div style="position: relative; border: 1px solid #ccc; padding: 5px">
+        <div
+          style="
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 40px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 60px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 80px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 100px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 120px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 140px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 160px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 180px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 200px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 220px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 240px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 260px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 280px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 300px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 320px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 340px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 360px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 370px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            left: 380px;
+            top: 0;
+            bottom: 0;
+            width: 20px;
+            background-color: #337ab7;
+          "
+        ></div>
+      </div>
+    </div> 
+    <button><a class="a-task4-2" href="/all-task.html">Головна сторінка</a></button>  
+</body>
+</html>
